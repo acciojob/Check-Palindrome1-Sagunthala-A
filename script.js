@@ -7,7 +7,11 @@ function palindrome(str){
 			arr += char;
 		}
 	}
-	return arr;
+	if(str === arr){
+		return true
+	}
+
+	return false
 
 }
 
